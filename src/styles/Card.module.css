@@ -1,0 +1,44 @@
+.cardContainer {
+  background-color: var(--darkBlue);
+  padding: 20px 30px;
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardContainer:hover {
+  background-color: var(--desaturatedBlue);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardBody p:first-child {
+  font-size: 3.5rem;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+}
+
+button > svg {
+  fill: black;
+}
+
+p {
+  font-weight: 300;
+}
+
+.recap {
+  color: var(--paleBlue);
+}
